@@ -1,0 +1,95 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.constuct{
+    width: 1500px;
+    min-height: 2335px;
+    float: left;
+}
+
+.header{
+    width: 100%;
+    min-height: 125px;
+    float: left;
+}
+.center{
+    width: 100%;
+    min-height: 766px;
+    float: left;
+
+}
+
+.logo{
+    width: 20%;
+    min-height: 100%;
+    float: left;
+}
+.cont{
+    width: 80%;
+    min-height: 100%;
+    float: left;
+}
+.logo img{
+    padding: 65px 0px 0px 80px;
+}
+
+.cont ul li{
+    list-style-type: none;
+    float: right;
+    padding: 65px 0px 0px 80px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    color: #07043B;
+    font-size: 16px;
+    align-items: flex-end;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: 'Raleway';
+}
+.cont ul li:hover{
+        cursor: pointer;
+        color: #2F65F8;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    top: 520px;
+    left: 430px;
+    color: white;
+    background: #2F65F8;
+    border: #2F65F8;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+
+.text input{
+    width: 320px;
+    height: 45px;
+    top: 518px;
+    left: 80px;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border: 0.625px solid #07043B;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+ background: #0031b8;
+}
+.img{
+    float: right;
+    padding: 140px 0px 0px 0px;
+}
+.text{
+    width: 510px;
+    min-height:100%;
+    float: left;
+    padding: 202px 0px 0px 80px;
+    font-family: Raleway;
+}
+
