@@ -30,14 +30,20 @@ body{
     width: 80%;
     min-height: 100%;
     float: left;
+    display: flex;
+    align-items: center;
 }
 .logo img{
     padding: 65px 0px 0px 80px;
 }
 
+.cont ul{
+    padding: 0 0 0 500px;
+}
+
 .cont ul li{
     list-style-type: none;
-    float: right;
+    float: left;
     padding: 65px 0px 0px 30px;
     margin: 0px 10px;
     box-sizing: border-box;
@@ -82,22 +88,19 @@ body{
  background: #0031b8;
 }
 .img{
-    width: 50%;
+    width: 60%;
     float: left;
     padding: 202px 0px 0px 0px;
 }
 .text{
-    width: 50%;
+    width: 40%;
     min-height:100%;
     float: left;
     padding: 202px 0px 0px 80px;
     font-family: Raleway;
     box-sizing: border-box;
 }
-.cont ul{
-    padding: 0;
-    margin: 0;
-}
+
 
 @media only screen and (max-width: 600px){
     .header{
