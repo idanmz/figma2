@@ -83,7 +83,7 @@ body{
 }
 .img{
     float: right;
-    padding: 140px 0px 0px 0px;
+    padding: 202px 0px 0px 0px;
 }
 .text{
     width: 510px;
@@ -95,3 +95,115 @@ body{
 .cont ul{
     padding: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .constuct{
+        float: left;
+        width: 100%;
+        min-height: 845px;
+    }
+
+    .logo{
+        width: 20%;
+        height:125px;
+        float: left;
+    }
+    .logo img{
+        width: 80px;
+        height: 24px;
+        padding: 65px 0px 0px 60px;
+    }
+    .cont{
+        width: 80%;
+        float: left;
+    }
+    .cont ul{
+        padding: 0px 0px 0px 82px;
+    }
+    .cont ul li {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #07043B;
+        float: left;
+        padding: 65px 0px 0px 20px;
+    }
+
+    .center{
+        float: left;
+        padding: 90px 24px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .text{
+        width: 100%;
+        float: left;
+    }
+
+    .text h1{
+        width: 100%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #07043B;
+    }
+
+    .text p{
+        margin-top: 15px;
+        width: 100%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;         
+        color: #07043B;
+    }
+    .text .knopka{
+        border: 0.625px solid #07043b;
+        border-radius: 3.125px;
+        padding: 12px 135px 12px 21px;
+        outline: none;
+        margin-top: 25px;
+    }
+    .text .btn{
+        background: #2F65F8;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 3.125px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        border-color: transparent;
+        padding: 12px 118px 12px 113px;
+        margin-left: 10px;
+        width: 304px;
+        margin-top: 16px;
+      
+    }
+    .img{
+        position: absolute;
+        float: left;
+        width: 50%;
+        top: 130px;
+        padding: 0px 0px 0px 140px;
+    }
+
+.img img{
+    width: 300px;
+    height:225px;
+    float: left;
+    }
+}
