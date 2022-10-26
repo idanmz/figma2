@@ -82,15 +82,17 @@ body{
  background: #0031b8;
 }
 .img{
-    float: right;
+    width: 50%;
+    float: left;
     padding: 202px 0px 0px 0px;
 }
 .text{
-    width: 510px;
+    width: 50%;
     min-height:100%;
     float: left;
     padding: 202px 0px 0px 80px;
     font-family: Raleway;
+    box-sizing: border-box;
 }
 .cont ul{
     padding: 0;
