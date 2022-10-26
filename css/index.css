@@ -38,7 +38,7 @@ body{
 .cont ul li{
     list-style-type: none;
     float: right;
-    padding: 65px 25px 0px 30px;
+    padding: 65px 0px 0px 30px;
     margin: 0px 10px;
     box-sizing: border-box;
     color: #07043B;
@@ -92,4 +92,5 @@ body{
     padding: 202px 0px 0px 80px;
     font-family: Raleway;
 }
-
+.cont ul{
+    padding: 0px 20px 0px 0px;
